@@ -4,15 +4,6 @@ title = "Dave Moyer"
 theme = "paige"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 2
-
 [params]
     description = "Personal site of Dave Moyer."
 
