@@ -77,7 +77,7 @@
   {{ $essays := where .Site.RegularPages "Section" "essays" }}
   {{ if $essays }}
   <div class="section">
-    <p class="section-label">Writing</p>
+    <p class="section-label">A sampling of work</p>
     <ul>
       {{ range $essays }}
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
@@ -88,8 +88,8 @@
 
   <div class="contact">
     <a class="icon-link" href="#"
-       data-u="revom.divad"
-       data-d="liamg.moc"
+       data-u="divad.reyom"
+       data-d="moc.liamg"
        onclick="this.href='mailto:'+this.dataset.u.split('').reverse().join('')+'@'+this.dataset.d.split('').reverse().join('')"
        aria-label="Email">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
