@@ -4,6 +4,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.141.0"
+  HUGO_EXTENDED = "true"
   HUGO_ENVIRONMENT = "production"
 
 [context.deploy-preview]
