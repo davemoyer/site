@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { font-size: 17px; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #fafaf8;
+      color: #1c1c1c;
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 5rem 1.5rem 7rem;
+      line-height: 1.75;
+    }
+    h1 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      margin: 0 0 2rem;
+    }
+    p {
+      margin: 0 0 1.25rem;
+      color: #333;
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: #c5c2bc;
+      text-underline-offset: 3px;
+    }
+    a:hover { text-decoration-color: #1c1c1c; }
+    .section { margin-top: 3rem; }
+    .section-label {
+      font-size: 0.725rem;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      color: #aaa;
+      margin-bottom: 0.85rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li { margin-bottom: 0.45rem; }
+    .contact {
+      margin-top: 3.5rem;
+      font-size: 0.9375rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dave Moyer</h1>
+
+  <p>
+    I'm an education data scientist. I build data products and strategic frameworks
+    that help organizations make better decisions about learning.
+  </p>
+
+  {{ $essays := where .Site.RegularPages "Section" "essays" }}
+  {{ if $essays }}
+  <div class="section">
+    <p class="section-label">Writing</p>
+    <ul>
+      {{ range $essays }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  <div class="contact">
+    <a href="mailto:moyer.david@gmail.com">moyer.david@gmail.com</a>
+  </div>
+</body>
+</html>
