@@ -1,7 +1,7 @@
 ---
 title: "Helping an Advocacy Organization Find Its Next Issue"
 date: 2024-01-02
-tags: ["advocacy", "K-12", "analysis"]
+tags: ["K-12", "data visualization"]
 ---
 
 # Helping an Advocacy Organization Find Its Next Issue
