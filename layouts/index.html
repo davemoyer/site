@@ -77,7 +77,7 @@
   {{ $essays := where .Site.RegularPages "Section" "essays" }}
   {{ if $essays }}
   <div class="section">
-    <p class="section-label">A sampling of work</p>
+    <p class="section-label">Vignettes</p>
     <ul>
       {{ range $essays }}
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
