@@ -1,6 +1,7 @@
 ---
 title: "Helping an Advocacy Organization Find Its Next Issue"
 date: 2024-01-02
+tags: ["K-12", "data visualization"]
 ---
 
 Advocacy organizations need to focus on the right issues. This one had been effectively drawing attention to weak test scores, but wanted a new issue to pair with that work, something more actionable that families and officials could move on directly. Chronic absenteeism turned out to be exactly that, but it wasn't on the table until the analysis made the case for it.
