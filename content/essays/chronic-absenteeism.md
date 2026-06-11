@@ -3,8 +3,6 @@ title: "Helping an Advocacy Organization Find Its Next Issue"
 date: 2024-01-02
 ---
 
-# Helping an Advocacy Organization Find Its Next Issue
-
 Advocacy organizations need to focus on the right issues. This one had been effectively drawing attention to weak test scores, but wanted a new issue to pair with that work, something more actionable that families and officials could move on directly. Chronic absenteeism turned out to be exactly that, but it wasn't on the table until the analysis made the case for it.
 
 Working with a city-level advocacy nonprofit in Texas, I helped show that chronic absenteeism could be that complement. I documented that attendance still hadn't returned to pre-pandemic levels even years after schools reopened, which made the problem current rather than a closed chapter of the pandemic. Then I reproduced relationships well established in national research using local data, showing that absenteeism tracked with lower test scores and weaker graduation outcomes in their own schools, not just in the literature. That connected the new issue directly to the outcomes they already cared about. Seeing their own city ranked against others in the state cemented the urgency.
