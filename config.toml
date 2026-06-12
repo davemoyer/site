@@ -6,5 +6,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     description = "Personal site of Dave Moyer."
 
-    favicon = "favicon.ico"
 
