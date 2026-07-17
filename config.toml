@@ -6,4 +6,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
     description = "Personal site of Dave Moyer."
 
+[services]
+    [services.googleAnalytics]
+        ID = "G-KX9YY11M3X"
+
 
